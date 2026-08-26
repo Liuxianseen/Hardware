@@ -23,6 +23,7 @@
 ### 项目目录
 
 - [立创开源硬件工程（原理图与 PCB）](https://oshwhub.com/liu_xianseen/project_mzckqhhy)
+- [当前进展与后续验证清单](TypeC_Cable_Tester/PROJECT_STATUS.md)
 - [固件源码与完整说明](TypeC_Cable_Tester/firmware/README.md)
 - [STM32C071 构建和烧录说明](TypeC_Cable_Tester/firmware/target/stm32c071/README.md)
 - [v0.3.6 可烧录文件](TypeC_Cable_Tester/firmware/target/stm32c071/release/)
