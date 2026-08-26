@@ -1,0 +1,48 @@
+{
+  "build": {
+    "arduino": {
+      "board": "GENERIC_C071G8UX"
+    },
+    "core": "stm32",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32C0 -DSTM32C0xx -DSTM32C071xx",
+    "f_cpu": "48000000L",
+    "framework_extra_flags": {
+      "arduino": "-D__CORTEX_SC=0"
+    },
+    "hwids": [
+      [
+        "0x0483",
+        "0x5740"
+      ]
+    ],
+    "mcu": "stm32c071g8u6",
+    "product_line": "STM32C071xx",
+    "variant": "STM32C0xx/C071G(8-B)U"
+  },
+  "debug": {
+    "jlink_device": "STM32C071G8",
+    "openocd_target": "stm32c0x",
+    "svd_path": "STM32C071.svd"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "CyboPal Type-C Cable Tester STM32C071G8U6",
+  "upload": {
+    "disable_flushing": false,
+    "maximum_ram_size": 24576,
+    "maximum_size": 65536,
+    "protocol": "stlink",
+    "protocols": [
+      "cmsis-dap",
+      "jlink",
+      "stlink"
+    ],
+    "require_upload_port": false,
+    "use_1200bps_touch": false,
+    "wait_for_upload_port": false
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32c071g8.html",
+  "vendor": "CyboPal"
+}

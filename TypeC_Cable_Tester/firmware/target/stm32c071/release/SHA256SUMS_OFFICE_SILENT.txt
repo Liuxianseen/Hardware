@@ -1,0 +1,3 @@
+28271cf6eb3089b2c85be9a51bafc3447cfce2c84bd5499c0f6fb957e17147de  TypeC_Tester_STM32C071_v0.3.6-office-silent.elf
+051c265f6d5846b00c5ee5141b362752041728ca701b2b28c03cacdececc215c  TypeC_Tester_STM32C071_v0.3.6-office-silent.bin
+b6a80ae943173c061b05a7a30661d7b7fefe75251f28dbde8f67a45725fbf8aa  TypeC_Tester_STM32C071_v0.3.6-office-silent.hex

@@ -1,0 +1,25 @@
+# PlatformIO and local build caches
+.pio/
+.pio-core-typec/
+.pio-build-typec-c071/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+*.map
+*.o
+*.a
+*.dblite

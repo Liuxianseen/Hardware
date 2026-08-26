@@ -1,0 +1,11 @@
+Firmware: Type-C Cable Tester 0.3.6
+Target: STM32C071G8U6 (64 KiB Flash / 24 KiB RAM)
+Built: 2026-08-26T10:50:04Z
+PlatformIO: PlatformIO Core, version 6.1.19
+Compiler: arm-none-eabi-gcc.exe (xPack GNU Arm Embedded GCC x86_64) 12.3.1 20230626
+Framework: Arduino_Core_STM32 2.12.0 / framework package 4.21200.0
+Buzzer policy: enabled (factory)
+Flash image: 47932 bytes (73.1%)
+RAM reserved: 7280 bytes (29.6%, includes linker heap/stack reservation)
+GNU size (text data bss dec hex): 47384 548 6732 54664 d588
+Flash base for raw BIN: 0x08000000
