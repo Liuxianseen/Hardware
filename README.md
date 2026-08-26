@@ -8,6 +8,8 @@
 
 板载 24 路信号灯可实时显示扫描进度与最终导通结果，同时提供总状态灯、蜂鸣器和 USB CDC 详细报告。扫描过程中任意时刻最多只有一个测试端点被拉低，其余 47 点保持高阻；每一路完成后还会验证两端已经恢复输入状态。
 
+硬件原理图和 PCB 工程已发布至[立创开源硬件平台](https://oshwhub.com/liu_xianseen/project_mzckqhhy)，本仓库维护与该测试板配套的固件源码、构建脚本和可烧录版本。
+
 ### 主要功能
 
 - 48 端点逐点、双向有向矩阵扫描。
@@ -20,6 +22,7 @@
 
 ### 项目目录
 
+- [立创开源硬件工程（原理图与 PCB）](https://oshwhub.com/liu_xianseen/project_mzckqhhy)
 - [固件源码与完整说明](TypeC_Cable_Tester/firmware/README.md)
 - [STM32C071 构建和烧录说明](TypeC_Cable_Tester/firmware/target/stm32c071/README.md)
 - [v0.3.6 可烧录文件](TypeC_Cable_Tester/firmware/target/stm32c071/release/)

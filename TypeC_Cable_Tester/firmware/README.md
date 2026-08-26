@@ -2,6 +2,8 @@
 
 当前目录包含可移植 C11 固件核心，以及已经完成正式 ARM 编译和链接的 STM32C071G8U6 实板目标。可直接烧录的 v0.3.6 产物和上板步骤见 [`target/stm32c071/README.md`](target/stm32c071/README.md)。
 
+对应的硬件原理图和 PCB 工程见[立创开源硬件平台](https://oshwhub.com/liu_xianseen/project_mzckqhhy)。
+
 ## 已实现
 
 - U2/U3 共 48 端点逐点扫描；任何时刻只允许一个低电平激励。
