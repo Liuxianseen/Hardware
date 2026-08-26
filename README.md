@@ -66,4 +66,6 @@ cd .\target\stm32c071
 
 ### 许可证
 
-当前首次公开版本尚未添加许可证。作者确定许可条款后会补充 `LICENSE`；在此之前，代码可以公开阅读，但复制、修改和再分发权利仍以适用的著作权规则为准。
+- 本仓库中由项目作者原创的固件源码、测试、构建/烧录脚本和文档采用 [Apache License 2.0](LICENSE)。
+- 原理图和 PCB 工程在[立创开源硬件平台](https://oshwhub.com/liu_xianseen/project_mzckqhhy)按 OpenAtom OHL 1.0 发布。
+- 预编译的 ELF/BIN/HEX 同时包含 Arduino Core、STM32 HAL/CMSIS、ST USB Device 和工具链运行库等第三方组件；这些部分仍遵循各自许可证，不会因本项目采用 Apache-2.0 而被重新许可。详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 与 [SOURCE_AND_RELINKING.md](SOURCE_AND_RELINKING.md)。

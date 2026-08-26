@@ -4,6 +4,10 @@
 
 对应的硬件原理图和 PCB 工程见[立创开源硬件平台](https://oshwhub.com/liu_xianseen/project_mzckqhhy)。
 
+## 许可证
+
+本目录中由项目作者原创的固件源码、测试、构建/烧录脚本和文档采用 [Apache License 2.0](../../LICENSE)。原理图和 PCB 工程另行采用 OpenAtom OHL 1.0。预编译固件包含的第三方组件继续遵循各自许可证，详见 [THIRD_PARTY_NOTICES.md](../../THIRD_PARTY_NOTICES.md) 与 [SOURCE_AND_RELINKING.md](../../SOURCE_AND_RELINKING.md)。
+
 ## 已实现
 
 - U2/U3 共 48 端点逐点扫描；任何时刻只允许一个低电平激励。
